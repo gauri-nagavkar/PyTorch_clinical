@@ -7,6 +7,10 @@ This project aims to predict heart disease using clinical data from the UCI Mach
 
 ## Dataset
 
+### Citation
+
+Janosi, Andras, Steinbrunn, William, Pfisterer, Matthias, and Detrano, Robert. (1988). Heart Disease. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.
+
 The dataset contains 14 features and 303 instances. The features include:
 
 - Age
@@ -24,10 +28,6 @@ The dataset contains 14 features and 303 instances. The features include:
 - Thalassemia (thal)
 
 The target variable (`num`) indicates the presence or absence of heart disease.
-
-### Citation
-
-Janosi, Andras, Steinbrunn, William, Pfisterer, Matthias, and Detrano, Robert. (1988). Heart Disease. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X.
 
 ## Methods
 
@@ -56,59 +56,6 @@ Evaluate model performance using various metrics and visualizations, including a
 - `Heart_Disease_Prediction_Project.ipynb`: Jupyter notebook containing the project code and analysis.
 - `README.md`: This file.
 
-## Usage
-
-1. **Clone the repository**:
-    ```bash
-    git clone <repository-url>
-    cd <repository-directory>
-    ```
-
-2. **Install dependencies**:
-    Ensure you have the required Python packages installed. You can use `requirements.txt` if provided, or install the packages manually:
-    ```bash
-    pip install pandas seaborn matplotlib sklearn torch
-    ```
-
-3. **Run the Jupyter Notebook**:
-    Open the notebook in Jupyter and run the cells to execute the code and see the analysis:
-    ```bash
-    jupyter notebook Heart_Disease_Prediction_Project.ipynb
-    ```
-
-## Results
-
-### Model Performance
-
-- **Multi-layer Perceptron (MLP)**:
-  - Accuracy: 88.52%
-  - Precision: 0.89
-  - Recall: 0.88
-  - F1 Score: 0.88
-  - ROC AUC: 0.89
-
-- **Convolutional Neural Network (CNN)**:
-  - Accuracy: [insert accuracy]
-  - Precision: [insert precision]
-  - Recall: [insert recall]
-  - F1 Score: [insert F1 score]
-  - ROC AUC: [insert ROC AUC]
-
-- **Recurrent Neural Network (RNN)**:
-  - Accuracy: [insert accuracy]
-  - Precision: [insert precision]
-  - Recall: [insert recall]
-  - F1 Score: [insert F1 score]
-  - ROC AUC: [insert ROC AUC]
-
-### Confusion Matrix and ROC Curves
-
-Visualizations of confusion matrices and ROC curves are included in the notebook.
-
 ## Conclusion
 
 This project demonstrates the application of various deep learning models to predict heart disease using clinical data. Each model's performance is evaluated, showing their strengths and areas for improvement.
-
-## License
-
-This project is licensed under the MIT License.
